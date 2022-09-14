@@ -56,7 +56,7 @@ return (
           <input type='password' id='pwd' name='pwd' value={pwd} onChange={e => setPwd(e.target.value)}></input>
           <input type="submit" value="SignIn"/>
         </form>
-        <p>Don't have an account?<Link to='/patient-signup' style={{ color: 'navy' }}>SignUp</Link></p>
+        <p>Don't have an account?<Link to='/signup' style={{ color: 'navy' }}>SignUp</Link></p>
       </div>
   </div>
 )
