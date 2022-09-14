@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+footer .core {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer .core div {
+  display: flex;
+}
+footer .core div a {
+  margin-right: 1rem;
+}
+footer .core div a svg {
+  position: relative;
+  top: 2px;
+}

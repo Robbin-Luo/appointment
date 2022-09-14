@@ -1,0 +1,95 @@
+.header {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.header .core {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .core a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 440px) {
+  .header .core a img {
+    height: 30px;
+  }
+}
+.header .core .header-right {
+  display: flex;
+}
+.header .core .header-right .dropdown {
+  position: relative;
+  margin-right: 1rem;
+}
+.header .core .header-right .dropdown .dropdown-btn {
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: transparent;
+  display: flex;
+}
+.header .core .header-right .dropdown .dropdown-btn svg {
+  position: relative;
+  font-size: 2rem;
+}
+.header .core .header-right .dropdown .dropdown-menu {
+  display: none;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding-top: 1rem;
+  box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 110%;
+  padding-bottom: 0.5rem;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu > button {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 0.5rem;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu svg {
+  color: lightgray;
+  position: absolute;
+  top: -18px;
+  left: 25px;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu a {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu a button {
+  width: 100%;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu a:last-child {
+  margin-bottom: 0.5rem;
+}
+.header .core .header-right .dropdown:hover .dropdown-menu a:hover {
+  color: white;
+}

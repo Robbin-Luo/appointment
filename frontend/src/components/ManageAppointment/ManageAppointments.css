@@ -1,0 +1,29 @@
+.appointments {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin-bottom: 2rem;
+}
+.appointments .appointment {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-bottom: none;
+}
+.appointments .appointment:last-child {
+  border-bottom: 1px solid gray;
+}
+.appointments .appointment svg {
+  transition: 0.3s;
+}
+.appointments .appointment svg:hover {
+  color: blue;
+}
+.appointments .appointment div {
+  width: 80px;
+  text-align: center;
+}

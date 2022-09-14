@@ -1,0 +1,34 @@
+select {
+  display: block;
+  width: 240px;
+  height: 36px;
+  margin: 0 auto;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 4px;
+}
+select option {
+  font-size: 16px;
+  height: 36px;
+  width: 100%;
+}
+.timeSlots {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.timeSlots > div {
+  display: flex;
+  margin-bottom: 8px;
+}
+.timeSlots > div label {
+  display: block;
+  width: 80px;
+  text-align: center;
+}
