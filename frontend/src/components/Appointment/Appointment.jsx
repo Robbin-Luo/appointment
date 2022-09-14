@@ -3,7 +3,7 @@ import doctors from '../../source/doctors'
 import timeSlots from '../../source/timeSlots'
 import Calendar from './Calendar/Calendar'
 import './Appointment.css'
-import axios from '../../config'
+import axios from 'axios'
 
 
 const Appointment = (props) => {

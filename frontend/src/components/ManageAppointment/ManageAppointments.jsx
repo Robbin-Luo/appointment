@@ -1,4 +1,4 @@
-import axios from '../../config';
+import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import {MdDelete} from 'react-icons/md'
 import './ManageAppointments.css'

@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { ImCross } from 'react-icons/im'
 import './SignUp.css'
-import axios from '../../config'
+import axios from 'axios'
 
 const SignUp = (props) => {
   const [username, setUsername] = useState('');

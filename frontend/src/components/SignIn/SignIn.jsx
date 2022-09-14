@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './SignIn.css'
-import axios from '../../config'
+import axios from 'axios'
 import {removeCookie,setCookie} from '../../utils/Cookie'
 
 const SignIn = (props) => {
